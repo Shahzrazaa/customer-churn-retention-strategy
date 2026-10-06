@@ -1,0 +1,15 @@
+# Local data
+data/*.csv
+data/*.xlsx
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
