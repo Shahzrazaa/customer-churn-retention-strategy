@@ -1,5 +1,9 @@
 # Customer Churn Prediction & Retention Strategy
 
+**10,000 customers · 21% observed churn · 79% reported classification accuracy · 4 retention scenarios**
+
+> Original IBA Karachi group project (2019) with a clearly labeled 2026 documentation/reproduction layer.
+
 Academic business analytics project completed at **IBA Karachi** for *Analytical Approach to Marketing Decisions*.
 
 **Focus:** churn prediction, customer retention, offer economics, and business decision-making  
