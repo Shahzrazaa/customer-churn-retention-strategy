@@ -33,6 +33,9 @@ Rather than stopping at prediction, the project linked churn analysis to **reten
 
 > These are the results reported in the original 2019 group project. They should be interpreted in the context of the assumptions and limitations documented below.
 
+## 2026 update
+I rebuilt this project in Python on Kaggle with XGBoost, SHAP explanations and profit-based retention targeting, on the same public bank churn dataset. It reaches a cross-validated ROC-AUC of about 0.87 (vs about 0.78 for logistic regression). Notebook: [Bank Churn: XGBoost, SHAP & Profit Targeting](https://www.kaggle.com/code/shahzadrazaa/bank-churn-xgboost-shap-profit-targeting).
+
 ## Retention Scenarios Evaluated
 
 | Scenario | Approx. offer cost | Conversion assumption | Reported revenue | Reported model improvement |
@@ -129,6 +132,8 @@ A production-quality version would improve the work by:
 - using expected value to target offers,
 - estimating offer acceptance from experiment data,
 - and validating retention impact with controlled A/B testing.
+
+Cross-validation, ROC-AUC/PR-AUC, threshold optimization for retention economics, and expected-value targeting are now covered in the [2026 Kaggle notebook](https://www.kaggle.com/code/shahzadrazaa/bank-churn-xgboost-shap-profit-targeting).
 
 ## Credits
 
