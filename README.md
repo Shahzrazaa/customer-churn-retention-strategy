@@ -33,6 +33,8 @@ Rather than stopping at prediction, the project linked churn analysis to **reten
 
 > These are the results reported in the original 2019 group project. They should be interpreted in the context of the assumptions and limitations documented below.
 
+![Reported model results and retention scenarios](docs/images/reported-results.png)
+
 ## 2026 update
 I rebuilt this project in Python on Kaggle with XGBoost, SHAP explanations and profit-based retention targeting, on the same public bank churn dataset. It reaches a cross-validated ROC-AUC of about 0.87 (vs about 0.78 for logistic regression). Notebook: [Bank Churn: XGBoost, SHAP & Profit Targeting](https://www.kaggle.com/code/shahzadrazaa/bank-churn-xgboost-shap-profit-targeting).
 
@@ -103,7 +105,9 @@ That makes it directly relevant to customer experience, retention, product opera
 - `docs/original-project-summary.md` — concise reconstruction of the original report
 - `analysis/reproduction.R` — a modern reproduction scaffold based on the documented methodology
 - `data/README.md` — dataset notes and instructions
+- `docs/images/reported-results.png` — chart of the reported results and scenarios (figures from the original report)
 - `.gitignore` — keeps local datasets and R workspace files out of Git
+- `LICENSE` — MIT (covers the code and documentation in this repository, not the third-party dataset)
 
 ## Important Note About the Code
 
